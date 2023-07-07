@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode })
 
                 <Providers>
                     <NavBar />
-                    <main>{children}</main>
+                    <main className='py-20'>{children}</main>
                     <Footer />
                 </Providers>
                 

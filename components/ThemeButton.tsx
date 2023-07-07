@@ -16,13 +16,10 @@ const ThemeButton = () =>
     return (
 
         <button onClick={() => resolvedTheme === 'dark' ? setTheme('light') : setTheme('dark') }>
-            
 
-                    {resolvedTheme === 'light' ? 
+            {resolvedTheme === 'light' ? 
                 <HiMoon id='moon-icon' className='theme-icon' size={40} /> :
                 <HiSun id='sun-icon' className='theme-icon' size={40} />}
-
-                
 
         </button>
 
